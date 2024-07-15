@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "icon": "sport",
+    "name": "Push-ups",
+    "target": 10,
+    "days": [
+      {
+        "comment": "First training always goes hard :)"
+      },
+      {
+        "comment": "Now it goes better, right?"
+      },
+      {
+        "comment": "Woohooooo"
+      },
+      {
+        "comment": "Don't let anything break your streak!"
+      },
+      {
+        "comment": "It looks like you take it serious! Nice one"
+      },
+      {
+        "comment": "Hope it feels better and better with each training"
+      },
+      {
+        "comment": "It's already a 7th time you have trained! Sounds like your second job, a better one :D"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "food",
+    "name": "Nourishment",
+    "target": 10,
+    "days": [
+      {
+        "comment": "It's time to take some diet, take your notes and make a serious schedule!"
+      },
+      {
+        "comment": "Always try to find some healthy alternatives for your favourite food, it surely exists!"
+      },
+      {
+        "comment": "You look much better already! Good job, keep going"
+      },
+      {
+        "comment": "How many kilos have you lost? Just check it out now!"
+      },
+      {
+        "comment": "It's a 5th day already, looks like you're getting comfortable with it"
+      },
+      {
+        "comment": "Almost a week of diet already! Nice one"
+      },
+      {
+        "comment": "Congratulations! It's a week of your diet already, let him COOK!"
+      }
+    ]
+  }
+]
