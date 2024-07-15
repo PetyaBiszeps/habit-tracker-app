@@ -1,0 +1,37 @@
+:root {
+    /* --- background --- */
+    --clr-main: hsl(222, 71%, 97%);
+    --clr-nav: hsl(252, 100%, 99%);
+
+    /* --- nav elements --- */
+    --clr-iconsBG-default: hsl(0, 0%, 100%);
+    --clr-iconsBG-active: hsl(240, 95%, 70%);
+    --clr-iconsBG-shadow: hsla(223, 72%, 56%, 0.12);
+
+    --clr-iconsBG-opened: hsl(240, 93%, 65%);
+
+    /* --- tab svg icons --- */
+    --clr-icons-default: hsl(240, 93%, 65%);
+    --clr-icons-active: hsl(0, 0%, 100%);
+
+    --clr-add-icon-default: hsl(228, 100%, 90%);
+    --clr-add-icon-active: hsl(0, 0%, 100%);
+
+    /* --- main elements --- */
+    --clr-empty-progress-bar: hsl(214, 16%, 92%);
+    --clr-filled-progress-bar: hsl(240, 93%, 65%);
+
+    /* --- habit elements --- */
+    --clr-habitBG: hsl(0, 0%, 100%);
+    --clr-habitDayBG: hsl(252, 100%, 99%);
+    --clr-habitDayBorder: hsl(228, 71%, 95%);
+
+    --clr-delete-habit: hsl(218, 24%, 66%);
+    --clr-delete-habitBG-hover: hsl(229, 100%, 97%);
+
+    --clr-input-border: hsl(228, 71%, 95%);
+    --clr-input-icon: hsl(218, 24%, 66%);
+
+    --clr-submitText: hsl(240, 93%, 65%);
+    --clr-submitBG: hsl(243, 90%, 96%);
+}

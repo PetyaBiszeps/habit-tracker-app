@@ -1,0 +1,117 @@
+main {
+    margin-top: 30px;
+}
+
+.habit {
+    display: flex;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    margin-bottom: 12px;
+}
+
+.habit__day {
+    min-width: 130px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+
+    background: #FBFAFF;
+    padding: 20px 40px;
+
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #E7EBFB;
+}
+
+.habit__comment {
+    font-size: 16px;
+    line-height: 18px;
+
+    padding: 20px 25px;
+}
+
+.habit__delete {
+    padding: 2px;
+
+    margin-left: auto;
+    margin-right: 15px;
+
+    background: none;
+    border: none;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.habit__delete:hover {
+    background: #EFF2FF;
+    transition-duration: 0.15s;
+}
+
+.habit__form {
+    display: flex;
+    gap: 14px;
+
+    width: 100%;
+    padding: 0 10px 0 24px;
+
+    position: relative;
+}
+
+input {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+
+    flex: 1;
+    padding: 12px 20px;
+
+    outline: none;
+    background: #FFFFFF;
+
+    border: 1px solid #E7EBFB;
+    border-radius: 9px;
+}
+
+input::placeholder {
+    color: #8899A8;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+.input_icon {
+    padding-left: 45px;
+}
+
+.input__icon {
+    top: 11px;
+    left: 45px;
+
+    position: absolute;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #5051F9;
+    background: #EDECFE;
+
+    border: none;
+    border-radius: 9px;
+
+    padding: 14px 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #EDECFE;
+    background: #5051F9;
+    transition-duration: 0.15s;
+}
