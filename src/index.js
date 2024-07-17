@@ -277,6 +277,32 @@ function addHabit(event) {
     rerender(maxId + 1);
 }
 
+function deleteHabit() {
+    if (globalActiveHabitId === undefined) {
+        return;
+    }
+
+    habits = habits.filter(habit => habit.id !== globalActiveHabitId);
+    
+    const menuItem = document.querySelector(`[menu-habit-id="${globalActiveHabitId}"]`);
+
+    if (menuItem) {
+        menuItem.remove();
+    }
+
+    if (habits.length > 0) {
+        rerender(habits[0].id);
+    } else {
+        page.header.h1.innerText = '';
+        page.header.progressPercent.innerText = '';
+        page.header.progressCoverBar.setAttribute('style', 'width: 0%');
+        page.content.daysContainer.innerHTML = '';
+        page.content.nextDay.innerHTML = '';
+    }
+
+    saveData();
+}
+
 /* --------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------- */
