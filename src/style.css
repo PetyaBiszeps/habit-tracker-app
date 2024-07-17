@@ -4,6 +4,7 @@
 @import "css/nav.css";
 @import "css/header.css";
 @import "css/main.css";
+@import "css/footer.css";
 @import "css/popup.css";
 
 * {
@@ -31,6 +32,9 @@ body {
 .content {
     width: 100%;
     padding: 45px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .cover {
