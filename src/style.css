@@ -1,0 +1,56 @@
+@import "css/fonts.css";
+@import "css/colors.css";
+
+@import "css/nav.css";
+@import "css/header.css";
+@import "css/main.css";
+@import "css/footer.css";
+@import "css/popup.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F3F6FD;
+
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+}
+
+.app {
+    display: flex;
+}
+
+.panel {
+    background-color: var(--clr-nav);
+    min-height: 100vh;
+    padding: 30px
+}
+
+.content {
+    width: 100%;
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #0000003F;
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cover_hidden {
+    display: none;
+}

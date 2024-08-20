@@ -1,0 +1,25 @@
+footer {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.del-button {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 14px;
+
+    color: black;
+    background: #FB6F9A93;
+
+    border: none;
+    border-radius: 9px;
+
+    padding: 14px 32px;
+    cursor: pointer;
+}
+
+.del-button:hover {
+    color: black;
+    background: rgba(255, 0, 0, 0.66);
+    transition-duration: 0.25s;
+}
